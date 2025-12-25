@@ -1,3 +1,5 @@
+// Added feature: current timestamp
+console.log('Application started at:', new Date().toISOString());
 const http = require('http');
 
 const hostname = '127.0.0.1';
